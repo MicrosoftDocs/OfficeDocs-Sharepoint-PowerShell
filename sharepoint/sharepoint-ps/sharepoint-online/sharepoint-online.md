@@ -15,6 +15,10 @@ The following cmdlet references are for SharePoint Online.
 
 ## sharepoint-online Cmdlets
 
+### [Add-SPOContainerTypeBilling](Add-SPOContainerTypeBilling.md)
+
+{{Adds a Azure billing subscription to a new standard billed container type.}}
+
 ### [Add-SPOGeoAdministrator](Add-SPOGeoAdministrator.md)
 
 {{Manually Enter Add-SPOGeoAdministrator Description Here}}
@@ -99,6 +103,22 @@ The following cmdlet references are for SharePoint Online.
 
 {{Manually Enter Get-SPOAppInfo Description Here}}
 
+### [Get-SPOCopilotAgentInsightsReport](Get-SPOCopilotAgentInsightsReport.md)
+
+{{Gets the status of all active and available reports when no report ID is present, and allows to view or download a report if report ID is present.}}
+
+### [Get-SPOContainer](Get-SPOContainer.md)
+
+{{Returns the details of all the containers or a specific container in the tenant.}}
+
+### [Get-SPOContainerType](Get-SPOContainerType.md)
+
+{{Returns details of all the container types or a specific container type in the tenant.}}
+
+### [Get-Get-SPOCopilotPromoUsage](Get-SPOCopilotPromoUsage.md)
+
+{{Retruns SharePoint Agent promotion queries used by the tenant.}}
+
 ### [Get-SPOCrossGeoMovedUsers](Get-SPOCrossGeoMovedUsers.md)
 
 {{Manually Enter Get-SPOCrossGeoMovedUsers Description Here}}
@@ -174,6 +194,10 @@ The following cmdlet references are for SharePoint Online.
 ### [Get-SPOPublicCdnOrigins](Get-SPOPublicCdnOrigins.md)
 
 {{Manually Enter Get-SPOPublicCdnOrigins Description Here}}
+
+### [Get-SPORestrictedSiteCreation](Get-SPORestrictedSiteCreation.md)
+
+{{Gets group configurations for restricting site creation policy}}
 
 ### [Get-SPOSite](Get-SPOSite.md)
 
@@ -322,6 +346,10 @@ The following cmdlet references are for SharePoint Online.
 ### [Invoke-SPOSiteSwap](Invoke-SPOSiteSwap.md)
 
 {{Manually Enter Invoke-SPOSiteSwap Description Here}}
+
+### [New-SPOContainerType](New-SPOContainerType.md)
+
+{{Creates a new container type in the tenant.}}
 
 ### [New-SPODataConnectionSetting](New-SPODataConnectionSetting.md)
 
@@ -540,6 +568,10 @@ This cmdlet is not currently active in production and may be removed in the futu
 
 {{Manually Enter Set-SPOOrgAssetsLibrary Description Here}}
 
+### [Set-SPORestrictedSiteCreation](Set-SPORestrictedSiteCreation.md)
+
+{{Sets or updates one or more group configurations for restricting site creation}}
+
 ### [Set-SPOSite](Set-SPOSite.md)
 
 {{Manually Enter Set-SPOSite Description Here}}
@@ -599,6 +631,10 @@ This cmdlet is not currently active in production and may be removed in the futu
 ### [Set-SPOUser](Set-SPOUser.md)
 
 {{Manually Enter Set-SPOUser Description Here}}
+
+### [Start-SPOCopilotAgentInsightsReport](Start-SPOCopilotAgentInsightsReport.md)
+
+{{Triggers the build of a new Copilot agent insight report for the specified number of days.}}
 
 ### [Start-SPOSiteContentMove](Start-SPOSiteContentMove.md)
 
